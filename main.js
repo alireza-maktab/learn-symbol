@@ -3,6 +3,7 @@ const logTypes = {
     ERR: Symbol.for("info-log")
 }
 
+// this log function
 function log(logType, message) {
     switch (logType) {
         case logTypes.INFO:
